@@ -18,7 +18,7 @@ $(document).ready(function() {
           if (!data.query.pages.hasOwnProperty(key)) continue;
 
           // push the data to the results array
-          results.push('<a href="https:en.wikipedia.org/?curid=' + data.query.pages[key].pageid + '" class="list-group-item active">' + '<h4 class="list-group-item-heading">' + data.query.pages[key].title + '</h4>' + '<p class="list-group-item-text">' + data.query.pages[key].extract + '</p>' + '</a>');
+          results.push('<a href="https:en.wikipedia.org/?curid=' + data.query.pages[key].pageid + '" class="list-group-item"><h4 class="list-group-item-heading">' + data.query.pages[key].title + '</h4><p class="list-group-item-text">' + data.query.pages[key].extract + '</p></a>');
         }
 
         // give the results array to the list group
