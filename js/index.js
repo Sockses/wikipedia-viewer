@@ -2,9 +2,11 @@ $(document).ready(function() {
   $("#searchForm").submit(function(event) {
     event.preventDefault();
 
+    $("#resultsList").html("");
+
     $.ajax({
             type: "GET",
-            url: "https:en.wikipedia.org/w/api.php?action=query&format=json&list=search&utf8=1&srsearch=" + encodeURIComponent($("#wikiQuery").val()) + "&callback=?",
+            url: "https:en.wikipedia.org/w/api.php?action=query&format=json&list=search&utf8=1&prop=links&srsearch=" + encodeURIComponent($("#wikiQuery").val()) + "&callback=?",
             contentType: "application/json; charset=utf-8",
             async: false,
             dataType: "json",
