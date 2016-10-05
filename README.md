@@ -8,8 +8,6 @@
 
 This is a FreeCodeCamp project. This small app uses the WikiPedia API to do simple searches and return a list of results.
 
-You can find a live version of the app here: http://sockses.github.io/wikipedia-viewer/
-
 ## Setup/Installation Requirements
 
 * Clone this repo
