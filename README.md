@@ -17,7 +17,7 @@ You can find a live version of the app here: http://sockses.github.io/wikipedia-
 
 ## Known Bugs
 
-* None!
+* Search does not work with gh-pages
 
 ## Support and contact details
 
